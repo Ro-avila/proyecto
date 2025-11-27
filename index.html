@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Casa de LEDs | Inicio </title>
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+ <header class="nav">
+  <a class="logo" href="index.html">Casa de LEDs</a>
+  <nav class="menu" aria-label="Navegación principal">
+    <a href="index.html" class="menu__link is-active">Inicio</a>
+    <a href="productos.html" class="menu__link">Productos</a>
+    <a href="contacto.html" class="menu__link">Contacto</a>
+  </nav>
+ </header>
+<!--boton mas modal TP7-->
+<button id="btn-modal" class="btn btn--primario" style="margin: 1rem;">
+  Mostrar mensaje
+</button>
+
+<div id="modal" class="oculto" 
+     style="
+        background:#141416;
+        padding:1.5rem;
+        border-radius:12px;
+        max-width:300px;
+        margin:1rem auto;
+        text-align:center;
+     ">
+    <p>Holi! descubriste el mensaje oculto modal :)</p>
+    <button id="cerrar-modal" class="btn btn--secundario">Cerrar</button>
+</div>
+
+  
+  <main>
+    <section class="hero" id="hero">
+      <div class="hero__contenido">
+  <!--primera parte visual del inicio-->
+        <h1>Iluminá tu mundo con estilo</h1>
+        <p>Especialistas en iluminación LED de alta eficiencia para interiores y exteriores. Ofrecemos equipos duraderos, de bajo consumo y con el mejor rendimiento para hogares o negocios.</p>
+        <div class="hero_botones">
+          <a href="productos.html" class="btn btn--primario">Ver productos</a>
+          <a href="contacto.html" class="btn btn--secundario">Saber más</a>
+        </div>
+      </div>
+      <img class="hero_img" src="assets/images/tiraLEDiluminandohabitacion.jpg" alt="Tira LED iluminando una habitacion moderna" class="hero_img">
+    </section>
+
+   <section class="beneficios" id="destacados">
+    <ul class="beneficios__lista">
+      <li>Ahorro energético garantizado 🔋</li>
+      <li>Envios a todo el país 🚚</li>
+      <li>Garantia de calidad 🛠️</li>
+    </ul>
+   </section>
+
+   <!--productos destacados-->
+   <section class="destacados" id="descatados">
+    <h2>Productos destacados</h2>
+    <div class="grid-productos">
+      <!--card numero1-->
+      <article class="card">
+        <img src="assets/images/tiraLED5m.jpeg" alt="Tira LED RGB 5m">
+        <h3 class="producto__titulo">Tira LED RGB 5m</h3>
+        <p class="producto__precio">$20.585</p>
+      </article>
+
+      <!--card numero2-->
+      <article class="card">
+        <img src="assets/images/panelLED60x60.jpeg" alt="Panel LED 60x60">
+        <h3 class="producto__titulo">Panel LED 60x60</h3>
+        <p class="producto__precio">$30.999</p>
+      </article> 
+
+      <!--card numero3-->
+      <article class="card">
+        <img src="assets/images/focoledE27.jpeg" alt="Foco LED E27">
+        <h3 class="producto__titulo">Foco LED E27</h3>
+        <p class="producto__precio">$14.999</p>
+      </article>
+     </div>
+
+     <!--boton de catalogo completo-->
+     <div class="cta__productos">
+      <a href="productos.html" class="btn btn--secundario">Ver catálogo completo</a>
+     </div>
+   </section>
+
+   <!--Parte final del inicio-->
+   <section class="cta-final">
+    <h2>Asesorate con nosotros</h2>
+    <p>¿Querés modernizar tu espacio con luces LED? Te ayudamos a elegir las mejores opciones.</p>
+    <a href="contacto.html" class="btn btn--primario">Contactanos</a>
+   </section>
+ </main>
+
+  <footer>
+    <p>&copy; 2025 Casa de LEDs. Todos los derechos reservados.</p>
+  </footer>
+
+  <script src="assets/js/script.js"></script> <!--script TP7-->
+</body>
+</html>
