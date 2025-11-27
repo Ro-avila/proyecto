@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Casa de LEDs | Productos</title>
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+  <header class="nav">
+    <a class="logo" href="index.html">Casa de LEDs</a>
+    <nav class="menu">
+       <a href="index.html" class="menu__link">Inicio</a>
+      <a href="productos.html" class="menu__link is-active">Productos</a>
+      <a href="contacto.html" class="menu__link">Contacto</a>
+    </nav>
+  </header>
+  <!--boton mas modal TP7-->
+<button id="btn-modal" class="btn btn--primario" style="margin: 1rem;">
+  Mostrar mensaje
+</button>
+
+<div id="modal" class="oculto" 
+     style="
+        background:#141416;
+        padding:1.5rem;
+        border-radius:12px;
+        max-width:300px;
+        margin:1rem auto;
+        text-align:center;
+     ">
+    <p>Holi! descubriste el mensaje oculto modal :)</p>
+    <button id="cerrar-modal" class="btn btn--secundario">Cerrar</button>
+</div>
+
+  <main>
+    <section class="productos-page">
+      <h1 class="titulo-pagina">Catálogo completo</h1>
+      <p class="subtitulo">
+        Elegí entre nuestras opciones de iluminacion LED para interior y exterior.
+      </p>
+
+     <div class="grid-productos">
+
+      <!-- producto/imagen 1-->
+       <article class="card">
+        <img src="assets/images/focoledE27.jpeg" alt="focoledE27">
+        <h3 class="producto__titulo">Foco LED E27 10W</h3>
+        <p class="producto__precio">$14.999</p>
+       </article>
+
+      <!--producto/imagen 2-->
+      <article class="card">
+        <img src="assets/images/tiraLED5m.jpeg" alt="Tira LED RGB 5m">
+        <h3 class="producto__titulo">Tira LED RGB 5m</h3>
+        <p class="producto__precio">$20.585</p>
+      </article>
+
+      <!--producto/imagen 3-->
+      <article class="card">
+        <img src="assets/images/panelLED60x60.jpeg" alt="Panel LED 60x60">
+        <h3 class="producto__titulo">Panel LED 60x60</h3>
+        <p class="producto__precio"> $30.999</p>
+      </article>
+
+      <!--producto imagen 4-->
+      <article class="card">
+        <img src="assets/images/reflectorLED50W.jpg" alt="Reflector LED 50W">
+        <h3 class="producto__titulo">Reflector LED 50W</h3>
+        <p class="producto__precio">$41.200</p>
+      </article>
+
+     <!--producto imagen 5-->
+      <article class="card">
+        <img src="assets/images/foco20W.jpg" alt="Foco LED 20W">
+        <h3 class="producto__titulo">Foco LED 20W</h3>
+        <p class="producto__precio">$18.500</p>
+      </article>
+
+      <!--producto 6-->
+      <article class="card">
+        <img src="assets/images/panelLED30x3018W.jpg" alt="Panel LED 30x30">
+        <h3 class="producto__titulo">Panel LED 30x30</h3>
+        <p class="producto__precio">$22.600</p>
+      </article>
+
+      <!--producto 7-->
+      <article class="card">
+        <img src="assets/images/apliqueLEDExteriorNegroModerno.jpg" alt="Aplique LED exterior moderno">
+        <h3 class="producto__titulo">Aplique LED exterior moderno</h3>
+        <p class="producto__precio">$27.800</p>
+      </article>
+
+      <!--producto 8-->
+      <article class="card">
+        <img src="assets/images/tiraLED10metros.jpg" alt="Tira LED RGB 10m">
+        <h3 class="producto__titulo">Tira LED RGB 10m</h3>
+        <p class="producto__precio">$32.999</p>
+      </article>
+
+       <!--producto 9-->
+        <article class="card">
+          <img src="assets/images/downlightLED12WredondoBlanco.jpg" alt="Downlight LED redondo 12W">
+          <h3 class="producto__titulo">Downlight LED 12W</h3>
+          <p class="producto__precio">$11.900</p>
+        </article>
+
+        <!--producto 10-->
+        <article class="card">
+          <img src="assets/images/manguera-tuboLED.jpg" alt="manguera-tuboLED">
+          <h3 class="producto__titulo">Manguera LED para interior/exterior 20m</h3>
+          <p class="producto__precio">$44.505</p>
+        </article>
+
+     </div>
+      
+    </section>
+
+    <!--servicioss-->
+    <section class="servicios-productos">
+      <h2>Servicios</h2>
+      <p class="subtitulo">Soluciones completas en iluminación LED para tus ambientes.</p>
+
+      <div class="grid-servicios">
+        <article class="service-card">
+          <h3>Instalación</h3>
+          <p>Colocamos sistemas LED en hogares, oficinas y comercios tanto exterior como interiores.</p>
+        </article>
+
+        <article class="service-card">
+          <h3>Asesoramiento</h3>
+          <p>Te ayudamos a elegir la mejor iluminacion para tu espacio según tu elección y necesidades.</p>
+        </article>
+
+        <article class="service-card">
+          <h3>Mantenimiento</h3>
+          <p>Cambio, revisión y mantenimiento de iluminarias LED</p>
+        </article>
+      </div>
+    </section>
+
+    <!--parte final, ayuda y boton de contacto-->
+    <section class="cta-final">
+      <h2>¿Querés ayuda personalizada?</h2>
+      <p>Podemos orientarte según potencia, medida, ambiente y tipo de iluminación.</p>
+      <a href="contacto.html" class="btn btn--primario">Consultanos</a>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Casa de LEDs. Todos los derechos reservados.</p>
+  </footer>
+
+  <script src="assets/js/script.js"></script> <!--script TP7-->
+</body>
+</html>
